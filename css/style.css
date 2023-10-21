@@ -1,0 +1,130 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #BDC3C7;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/*HEADER*/
+#header-nav {
+	background-color: #2C3E50;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #BDC3C7;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	padding-bottom: 20px;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #BDC3C7;
+    text-align: center;
+}
+
+#nav-list li a {
+    background: #2C3E50;
+}
+
+#nav-list li a:hover {
+	background: #BDC3C7;
+	color: #2C3E50;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #BDC3C7;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/*END OF HEADER*/
+
+/* HOME PAGE */
+
+#main-content h2 {
+	color: #2C3E50;
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+#home-tiles .item-text {
+    background: #2C3E50;
+    padding: 30px;
+    border: 1px solid #BDC3C7;
+    margin-bottom: 30px;
+}
+
+
+#home-tiles h3 {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#home-tiles p {
+	font-size: 1.1em;
+	text-align: justify;
+}
+
+/* END OF HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 4vw; /* 1vw = 1% of viewport width */
+    }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    /* End Header */
+
+    /* Home Page */
+    .menu-item-description {
+        text-align: center;;
+    }
+
+}
